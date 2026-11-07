@@ -81,6 +81,14 @@ Offline examples rendered from version 1.0 controller layouts, native TWUI templ
 
 Please [report an issue](https://github.com/esnqduke/WH3-Equipment-Presets/issues) with the game version, language, resolution/UI scale, affected character type, reproduction steps, and a screenshot where relevant. Include other enabled mods when reporting conflicts.
 
+## Development credits
+
+Built through approximately **30 hours of development and iteration**.
+
+- **Backend and mod logic:** GPT-6.1 Sol.
+- **UI and visual design:** GPT-6 Astra.
+- **Direction, requirements and in-game feedback:** esnqduke.
+
 ## Development
 
 Runtime Lua and native TWUI resources are in `src/`; autonomous checks are in `tests/`. These checks simulate native boundaries and do not replace an in-game test. Release checksums accompany the downloadable pack.
