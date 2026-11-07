@@ -1,0 +1,132 @@
+[
+    {
+        "source":  "research/game81/ui/skins/default/equipment_items_weapon.png",
+        "alpha_threshold":  20,
+        "kind":  "weapon",
+        "compiled":  "src/ui/skins/stock_weapon.png",
+        "destination":  [
+                            6,
+                            4,
+                            51,
+                            56
+                        ],
+        "canvas":  [
+                       64,
+                       64
+                   ],
+        "padding":  4,
+        "faint_edges":  "alpha inside core crop retained; tails outside core crop intentionally discarded",
+        "compiled_sha256":  "81C8F0CF02CEF2B970629F89BC6A9A793DE38A7F8CF00699F8AB838A2D157E99",
+        "source_sha256":  "316BCAA7EA3D9925A3CBF6001D5238E5E638989F79F9D7CFC7770E4109C35CF0",
+        "source_core":  [
+                            20,
+                            22,
+                            31,
+                            34
+                        ]
+    },
+    {
+        "source":  "research/game81/ui/skins/default/equipment_items_armour.png",
+        "alpha_threshold":  20,
+        "kind":  "armour",
+        "compiled":  "src/ui/skins/stock_armour.png",
+        "destination":  [
+                            4,
+                            7,
+                            56,
+                            50
+                        ],
+        "canvas":  [
+                       64,
+                       64
+                   ],
+        "padding":  4,
+        "faint_edges":  "alpha inside core crop retained; tails outside core crop intentionally discarded",
+        "compiled_sha256":  "3B1C3BEC8240903D8B61A5ACF0E83E13566DA49BBA9319045526EC80DE2F5C3B",
+        "source_sha256":  "A9DC87A4F7FB649289F21C74B7E86D066FAF56A239455FDAD4586F71380489EB",
+        "source_core":  [
+                            19,
+                            24,
+                            39,
+                            35
+                        ]
+    },
+    {
+        "source":  "research/game81/ui/skins/default/equipment_items_talisman.png",
+        "alpha_threshold":  20,
+        "kind":  "talisman",
+        "compiled":  "src/ui/skins/stock_talisman.png",
+        "destination":  [
+                            7,
+                            4,
+                            49,
+                            56
+                        ],
+        "canvas":  [
+                       64,
+                       64
+                   ],
+        "padding":  4,
+        "faint_edges":  "alpha inside core crop retained; tails outside core crop intentionally discarded",
+        "compiled_sha256":  "5F30D4969DF658757C9DC96E292BF965A2F3F0F027F6C8601C6807F46D6D109F",
+        "source_sha256":  "8AA9666DAE0175229C306B7494E15C754FA118ADF020715FA0B22A89767334F8",
+        "source_core":  [
+                            21,
+                            19,
+                            34,
+                            39
+                        ]
+    },
+    {
+        "source":  "research/game81/ui/skins/default/equipment_items_enchanted.png",
+        "alpha_threshold":  20,
+        "kind":  "enchanted",
+        "compiled":  "src/ui/skins/stock_enchanted.png",
+        "destination":  [
+                            7,
+                            4,
+                            50,
+                            56
+                        ],
+        "canvas":  [
+                       64,
+                       64
+                   ],
+        "padding":  4,
+        "faint_edges":  "alpha inside core crop retained; tails outside core crop intentionally discarded",
+        "compiled_sha256":  "EF37FD2F87FDF76F20DA47EE0E42A19F7699BE203AE9B7C580C9AD5474FC14F4",
+        "source_sha256":  "086F6124AF39B86771DD55AC158F2539584AE4B93BCE45E0E857C814BE257F32",
+        "source_core":  [
+                            21,
+                            19,
+                            35,
+                            39
+                        ]
+    },
+    {
+        "source":  "research/game81/ui/skins/default/equipment_items_arcane.png",
+        "alpha_threshold":  20,
+        "kind":  "arcane",
+        "compiled":  "src/ui/skins/stock_arcane.png",
+        "destination":  [
+                            8,
+                            4,
+                            48,
+                            56
+                        ],
+        "canvas":  [
+                       64,
+                       64
+                   ],
+        "padding":  4,
+        "faint_edges":  "alpha inside core crop retained; tails outside core crop intentionally discarded",
+        "compiled_sha256":  "978703D331FECB1BD6B0F770DD6F5983217BDFD844BF936385FA275B24F270E6",
+        "source_sha256":  "81CE023F337780D0108C76B9E736736525A1F4A13E7EF04B6F3484F3E5A5F458",
+        "source_core":  [
+                            23,
+                            22,
+                            28,
+                            33
+                        ]
+    }
+]

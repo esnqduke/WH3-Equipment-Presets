@@ -1,0 +1,10 @@
+﻿*.log
+.env
+.env.*
+!.env.example
+tools/
+research/
+handoff/
+.superpowers/
+release-assets/
+.github/workflows/

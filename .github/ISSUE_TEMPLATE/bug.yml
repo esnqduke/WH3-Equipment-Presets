@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a reproducible problem with Equipment Presets
+body:
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Game version, mod version, language, resolution/UI scale and other enabled mods.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps and result
+      description: What did you do, what happened, and what did you expect? Attach a screenshot for UI issues.
+    validations:
+      required: true
