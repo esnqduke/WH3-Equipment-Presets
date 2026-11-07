@@ -6,6 +6,10 @@ Save and reuse equipment/follower loadouts for your lords and heroes, with a sea
 
 This release includes the approved bronze-and-teal favorite buttons: a hollow star for ordinary presets and a filled golden star for favorites.
 
+## Steam Workshop
+
+[Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3835603760). Enable only one copy: disable the manually installed GitHub pack if using Workshop.
+
 ## Download and install
 
 Download `wh3_equipment_presets_probe.pack`, close the game, copy the pack to the game's `data` folder and enable it in your launcher. Keep only one copy enabled. `SHA256SUMS.txt` verifies the download. The historical filename is intentional; no separate test helper is included.

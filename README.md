@@ -51,6 +51,12 @@ Translation catalogs are included; native rendering and translation quality have
 
 ## Install
 
+### Steam Workshop
+
+[Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3835603760), enable the mod in the launcher, then open a character's equipment screen and select **Presets**. Disable any manually installed copy before enabling the Workshop version.
+
+### Manual download
+
 1. Close the game.
 2. Download `wh3_equipment_presets_probe.pack` from the [1.0 release](https://github.com/esnqduke/WH3-Equipment-Presets/releases/tag/v1.0).
 3. Copy it into the game's `data` directory.
