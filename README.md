@@ -61,15 +61,21 @@ The historical `_probe` filename is retained for continuity; it is the release m
 
 To update, close the game and replace the existing pack. To uninstall, close the game, disable the mod and remove its pack; removing the pack is not a command to erase the separately stored preset library.
 
-## UI gallery
+## UI examples
 
-Current 1.0 native screenshots are being prepared. Older screenshots and concept art are not presented as screenshots of this release.
+Offline examples rendered from version 1.0 controller layouts, native TWUI templates and shipped textures. These are **not in-game screenshots**. Names and loadouts are demonstration data; follower portraits use a placeholder and font rendering is approximate. In-game visuals may differ.
 
-### Favorite control artwork
+### Preset library
+![Preset library example](docs/images/ui-library.png)
 
-![Current 1.0 favorite texture states, at native size and enlarged](docs/images/favorite-states.png)
+### Create a preset and choose its icon
+![Preset naming and archetype picker example](docs/images/ui-icon-picker.png)
 
-Actual release textures, shown at native size (top) and enlarged (bottom). This is an asset sheet, not an in-game screenshot.
+### Preview a loadout
+![Loadout preview example](docs/images/ui-preview.png)
+
+### Application result
+![Application result example](docs/images/ui-result.png)
 
 ## Feedback
 
