@@ -1,4 +1,4 @@
-﻿*.log
+*.log
 .env
 .env.*
 !.env.example
@@ -7,4 +7,3 @@ research/
 handoff/
 .superpowers/
 release-assets/
-.github/workflows/

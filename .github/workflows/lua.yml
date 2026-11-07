@@ -1,0 +1,27 @@
+name: Lua checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua 5.1
+        run: sudo apt-get update && sudo apt-get install -y lua5.1
+      - name: Check source syntax
+        run: find src -name '*.lua' -print0 | xargs -0 -n1 luac5.1 -p
+      - name: Assemble runtime bundle
+        run: |
+          mkdir -p .superpowers
+          lua5.1 scripts/build-library-probe-bundle.lua "$PWD"
+      - name: Run standalone checks
+        run: |
+          lua5.1 tests/run.lua
+          lua5.1 tests/localization.lua
+          lua5.1 tests/localization-layers.lua
+          lua5.1 tests/game-runtime.lua
+          lua5.1 tests/apply.lua
+          lua5.1 tests/equipment-adapter.lua
