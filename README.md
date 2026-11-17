@@ -2,11 +2,13 @@
 
 ![WH3 Equipment Presets — save a loadout, preview changes, equip your character](docs/images/banner.png)
 
-**Equipment loadouts for Total War: WARHAMMER III · Release 1.0**
+**Equipment loadouts for Total War: WARHAMMER III · Release 1.0.1**
 
 Save equipment and follower combinations, organize them in a persistent preset library, and preview changes before applying a loadout to a lord or hero.
 
-![Version 1.0](https://img.shields.io/badge/release-1.0-c5a568) ![Game 8.1](https://img.shields.io/badge/target_game-8.1-14636b) ![11 languages](https://img.shields.io/badge/interface-11_languages-14636b)
+![Version 1.0.1](https://img.shields.io/badge/release-1.0.1-c5a568) ![WH3 9.x user-reported](https://img.shields.io/badge/WH3_9.x-user_reported-14636b) ![11 languages](https://img.shields.io/badge/interface-11_languages-14636b)
+
+[Download 1.0.1](https://github.com/esnqduke/WH3-Equipment-Presets/releases/tag/v1.0.1) · [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3835603760) · [Changelog](CHANGELOG.md)
 
 ## Features
 
@@ -25,7 +27,7 @@ Presets reference equipment you own; the mod does not create items. The separate
 
 **Developed and exercised on Total War: WARHAMMER III 8.1 (8.1.0.0).**
 
-The mod is expected to work on game version **9 and later**, but those versions have **not been tested**. This is an expectation, not confirmed compatibility; UI or scripting changes may require an update.
+**The author reports that the existing build works on WH3 9.x.** The exact patch and full test coverage were not specified. The local game executable was observed as 9.0.5.0; this does not establish an exact-patch test. Every later 9.x patch is not automatically verified. Version 1.0.1 adds release metadata only; gameplay, preset storage and UI are unchanged.
 
 The latest 1.0 artwork has passed offline asset and controller checks. A final in-game visual check of that artwork is still pending. Earlier builds were exercised in the game; this does not establish that every character, faction, language or resolution has been tested. Multiplayer compatibility has not been established.
 
@@ -58,7 +60,7 @@ Translation catalogs are included; native rendering and translation quality have
 ### Manual download
 
 1. Close the game.
-2. Download `wh3_equipment_presets_probe.pack` from the [1.0 release](https://github.com/esnqduke/WH3-Equipment-Presets/releases/tag/v1.0).
+2. Download `wh3_equipment_presets_probe.pack` from the [1.0.1 release](https://github.com/esnqduke/WH3-Equipment-Presets/releases/tag/v1.0.1).
 3. Copy it into the game's `data` directory.
 4. Enable it in the Total War launcher or your mod manager, then start the game.
 5. Open a character's equipment screen and select **Presets**.

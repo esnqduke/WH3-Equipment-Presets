@@ -1,38 +1,33 @@
-![Equipment Presets 1.0 cover artwork](https://raw.githubusercontent.com/esnqduke/WH3-Equipment-Presets/main/docs/images/banner.png)
+﻿# Equipment Presets 1.0.1
 
-# Equipment Presets 1.0
+![Equipment Presets cover](https://raw.githubusercontent.com/esnqduke/WH3-Equipment-Presets/main/docs/images/banner.png)
 
-Save and reuse equipment/follower loadouts for your lords and heroes, with a searchable persistent faction library, class-specific/shared presets, ten archetype icons, favorites, and a preview before application.
+## Changes
 
-This release includes the approved bronze-and-teal favorite buttons: a hollow star for ordinary presets and a filled golden star for favorites.
+- Added `wh3ep/release.json` to record version1.0.1 and the author's compatibility report.
+- All366 original pack entries remain byte-for-byte unchanged. No gameplay, preset storage or UI changes; PFH5 Mod format retained.
+- The author uploaded this package to existing Steam Workshop item3835603760 and confirmed a new change-history entry. The local game-data pack was synchronized to the same file.
 
-## Steam Workshop
+## Compatibility
 
-[Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3835603760). Enable only one copy: disable the manually installed GitHub pack if using Workshop.
+The author reports that the existing build works on Total War: WARHAMMER III9.x; the exact tested patch and full coverage were not specified. The installed game executable was observed as9.0.5.0. This is not an independently verified exact-patch test. Later patches, all factions/characters/resolutions/languages and multiplayer are not comprehensively verified. Historical development/test baseline:8.1.
+
+The metadata file is a release record, not a game compatibility header. No claim is made that the launcher outdated warning has been independently checked or cleared. Existing offline UI examples remain applicable because the UI is unchanged; they are not in-game screenshots. Earlier pending visual checks are not represented as newly completed.
 
 ## Download and install
 
-Download `wh3_equipment_presets_probe.pack`, close the game, copy the pack to the game's `data` folder and enable it in your launcher. Keep only one copy enabled. `SHA256SUMS.txt` verifies the download. The historical filename is intentional; no separate test helper is included.
+Subscribe on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3835603760), or download the pack below, close the game, replace your existing pack in `data`, then enable it in your launcher. Enable only one copy; disable the manually installed copy if using Workshop. The separate test-items helper is not included.
 
-## Game compatibility
+Assets: `wh3_equipment_presets_probe.pack` and `SHA256SUMS.txt`.
 
-Target: **Total War: WARHAMMER III 8.1 / 8.1.0.0**.
-Likely to work on **9+**, but **untested** on those versions.
-Final native visual acceptance of the latest 1.0 artwork remains pending.
+SHA256: `DAE8D8C0EC43DEBE270AFF5F9A76043CCAC3CD3A8C011831360B49354E131B8C`.
 
-## Interface languages
+## Languages
 
-English, Russian, Simplified Chinese, Traditional Chinese, Spanish, Brazilian Portuguese, German, Japanese, French, Polish and Korean. The active game language is detected automatically, with English fallback.
+English, Russian, Simplified Chinese, Traditional Chinese, Spanish, Portuguese (Brazil), German, Japanese, French, Polish and Korean. Automatic game-language selection, English fallback.
 
-## Included assets
+## Credits
 
-- `wh3_equipment_presets_probe.pack`
-- `SHA256SUMS.txt`
+Backend and mod logic: **GPT-6.1 Sol**. UI and visual design: **GPT-6 Astra**. Direction and in-game feedback: **esnqduke**. Approximately30 hours of initial development and iteration.
 
-## UI examples
-
-[View the main interface screens](https://github.com/esnqduke/WH3-Equipment-Presets#ui-examples). These are offline renders from the 1.0 resources, with demonstration data and approximate font rendering.
-
-## Development credits
-
-Approximately 30 hours of development and iteration. Backend and mod logic: **GPT-6.1 Sol**. UI and visual design: **GPT-6 Astra**. Direction, requirements and in-game feedback: **esnqduke**.
+Release1.0 remains available unchanged.
