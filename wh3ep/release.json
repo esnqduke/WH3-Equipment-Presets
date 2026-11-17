@@ -1,0 +1,13 @@
+﻿{
+    "mod":  "WH3 Equipment Presets",
+    "version":  "1.0.1",
+    "release_kind":  "version-and-compatibility-record",
+    "changes":  [
+                    "Added version metadata to the package. No gameplay, preset storage or UI changes."
+                ],
+    "user_reported_working_game_version":  "9.x; exact patch unspecified",
+    "installed_game_file_version":  "9.0.5.0",
+    "native_tests_by_codex":  "No new9.x native tests performed",
+    "historical_development_baseline":  "8.1",
+    "note":  "This file records the mod release; it is not a game compatibility header."
+}
